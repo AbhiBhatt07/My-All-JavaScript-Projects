@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="weather_box">
+          <div class="search d-felx align-center">
+            <input type="text" placeholder="Enter Country Name" />
+            <button><img src="images/search.png" /></button>
+          </div>
+          <div class="invalid">
+             <p>Input is Invailid</p>
+          </div>
+          <div class="weather">
+            <img src="images/rain.png" class="weather_image" />
+            <h1 id="temp"></h1>
+            <h2 id="country"></h2>
+
+            <div class="details d-felx align-center">
+              <div class="first d-felx align-center">
+                <img src="images/humidity.png" />
+                <div>
+                  <p class="humidity"></p>
+                  <p>Humidity</p>
+                </div>
+              </div>
+              <div class="second d-felx align-center">
+                <img src="images/wind.png" alt="" />
+                <div>
+                  <p class="wind"></p>
+                  <p>Wind</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
